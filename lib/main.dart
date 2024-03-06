@@ -18,7 +18,7 @@ class ProfileApp extends StatelessWidget {
             gradient: LinearGradient(
               begin: Alignment.topCenter,
               end: Alignment.bottomCenter,
-              colors: [Colors.redAccent, Colors.pinkAccent],
+              colors: [Colors.purple, Colors.pinkAccent],
             ),
           ),
           child: const SizedBox(
@@ -59,7 +59,7 @@ class ProfileApp extends StatelessWidget {
                                 Text(
                                   "Posts",
                                   style: TextStyle(
-                                    color: Colors.redAccent,
+                                    color: Colors.purple,
                                     fontSize: 22.0,
                                     fontWeight: FontWeight.bold,
                                   ),
@@ -69,7 +69,7 @@ class ProfileApp extends StatelessWidget {
                                   "5200",
                                   style: TextStyle(
                                     fontSize: 20.0,
-                                    color: Colors.pinkAccent,
+                                    color: Colors.deepPurple,
                                   ),
                                 )
                               ],
@@ -97,7 +97,7 @@ class ProfileApp extends StatelessWidget {
                   Text(
                     "Dados Pessoais:",
                     style: TextStyle(
-                      color: Colors.redAccent,
+                      color: Colors.purple,
                       fontStyle: FontStyle.normal,
                       fontSize: 28.0,
                     ),
@@ -142,7 +142,7 @@ class ProfileApp extends StatelessWidget {
                   Text(
                     "Formação Acadêmica:",
                     style: TextStyle(
-                      color: Colors.redAccent,
+                      color: Colors.purple,
                       fontStyle: FontStyle.normal,
                       fontSize: 28.0,
                     ),
@@ -180,7 +180,7 @@ class ProfileApp extends StatelessWidget {
                   Text(
                     "Linguagens e Tecnologias:",
                     style: TextStyle(
-                      color: Colors.redAccent,
+                      color: Colors.purple,
                       fontStyle: FontStyle.normal,
                       fontSize: 28.0,
                     ),
@@ -211,7 +211,7 @@ class ProfileApp extends StatelessWidget {
                   Text(
                     "Outros Conhecimentos:",
                     style: TextStyle(
-                      color: Colors.redAccent,
+                      color: Colors.purple,
                       fontStyle: FontStyle.normal,
                       fontSize: 28.0,
                     ),
@@ -258,12 +258,12 @@ class ProfileApp extends StatelessWidget {
                       fontSize: 22.0,
                       color: Colors.black,
                     ),
-                  ),
+                  ), 
                   SizedBox(height: 10.0),
                   Text(
                     "Experiência Profissional:",
                     style: TextStyle(
-                      color: Colors.redAccent,
+                      color: Colors.purple,
                       fontStyle: FontStyle.normal,
                       fontSize: 28.0,
                     ),
@@ -301,7 +301,7 @@ class ProfileApp extends StatelessWidget {
                   Text(
                     "Outros Trabalhos:",
                     style: TextStyle(
-                      color: Colors.redAccent,
+                      color: Colors.purple,
                       fontStyle: FontStyle.normal,
                       fontSize: 28.0,
                     ),
