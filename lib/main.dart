@@ -91,7 +91,7 @@ class ProfileApp extends StatelessWidget {
             child: SizedBox(
               height: context.height - 410,
               child: ListView(
-                padding: 10.top,
+                padding: 10.paddingTop,
                 shrinkWrap: true,
                 children: const <Widget>[
                   Text(
@@ -258,7 +258,7 @@ class ProfileApp extends StatelessWidget {
                       fontSize: 22.0,
                       color: Colors.black,
                     ),
-                  ), 
+                  ),
                   SizedBox(height: 10.0),
                   Text(
                     "Experiência Profissional:",
