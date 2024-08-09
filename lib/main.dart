@@ -91,7 +91,7 @@ class ProfileApp extends StatelessWidget {
             child: SizedBox(
               height: context.height - 410,
               child: ListView(
-                padding: 10.paddingTop,
+                padding: 10.fromTop,
                 shrinkWrap: true,
                 children: const <Widget>[
                   Text(
